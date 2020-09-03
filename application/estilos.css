@@ -1,0 +1,177 @@
+.pie
+{
+    background:linear-gradient(30deg, rgb(2, 10, 34), rgb(60, 46, 85), rgb(75, 10, 75));
+    opacity: 2;
+    clear: both;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+input[type=text],select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: violet;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background:linear-gradient(30deg, rgb(2, 10, 34), rgb(60, 46, 85), rgb(75, 10, 75));
+    opacity: 2;
+    
+    color: blue;
+}
+button[type=submit]:hover
+{
+    width:100px;
+    background:linear-gradient(30deg, rgb(2, 10, 34), rgb(60, 46, 85), rgb(75, 10, 75));
+    opacity: 2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.letra{
+    color: blueviolet;
+    text-align: justify;
+    background:linear-gradient(30deg, rgb(2, 10, 34), rgb(60, 46, 85), rgb(75, 10, 75));
+    opacity: 2;
+    
+}
+
+.form{
+    background-position: 0%;
+    background-position-x: center;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+footer{
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1{
+    max-width: 400px;
+}
+
+.column1 h1{
+    font-size: 20px;
+}
+
+.column1 p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.column2{
+    max-width: 400px;
+}
+
+.column2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.column3{
+    max-width: 400px;
+}
+
+.column3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 150px;
+}
+
+.container-footer{
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright{
+    color: white;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information{
+   color: white;
+}
+
+.information{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1100px){
+    .container-body{
+        display: block;
+    }
+}
